@@ -1,4 +1,3 @@
-package denemeler;
 
 import java.util.*;
 
@@ -63,7 +62,7 @@ public class Mapp<K,V>
 	{
 		if(containsKey(key))
 			return front.value;
-		throw new Exception("KEY BULUNAMADI!Keyi bulamadýðýnda bir deðer döndüremeyeceði için Value degeri alamadiniz");
+		throw new Exception("KEY BULUNAMADI!Keyi bulamadÃ½Ã°Ã½nda bir deÃ°er dÃ¶ndÃ¼remeyeceÃ°i iÃ§in Value degeri alamadiniz");
 	}
 	
 	public void remove(K key)
@@ -89,7 +88,7 @@ public class Mapp<K,V>
 		
 		catch(Exception a)
 		{
-			System.out.println("KEY BULUNAMADI!Keyi bulamadýðýnda bir deðer döndüremeyeceði için Value degeri alamadiniz");
+			System.out.println("KEY BULUNAMADI!Keyi bulamadÃ½Ã°Ã½nda bir deÃ°er dÃ¶ndÃ¼remeyeceÃ°i iÃ§in Value degeri alamadiniz");
 		}
 	}
 }
