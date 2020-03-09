@@ -1,4 +1,4 @@
-package denemeler;
+
 
 public class RollingHash {
 	int Q;
