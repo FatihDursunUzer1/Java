@@ -1,4 +1,4 @@
-package myLinkedList;
+
 
 public class myQueue {
 	Node front;
